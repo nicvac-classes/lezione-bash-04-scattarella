@@ -17,6 +17,6 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
+ grep -E "192.168." server.log 
+ grep -E "ERROR" | "WARNING" server.log
 

@@ -8,11 +8,13 @@
 #   1. Mostra solo le righe che contengono [ERROR]
 #   2. Conta quante righe contengono [WARNING]
 #   3. Salva tutte le righe [ERROR] e [WARNING] in
-#      ambiente/sandbox/problemi.txt
+#     
 #      (usa grep -E con alternativa | )
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
+cd ../..
+cd log
+grep "ERROR" server.log
+grep "WARNING" server.log | wc -l
 

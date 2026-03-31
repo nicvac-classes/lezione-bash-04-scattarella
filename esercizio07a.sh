@@ -12,6 +12,8 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
+grep -r "\.txt$" /workspaces/lezione-bash-04-scattarella/ambiente/
+ grep -rn "database" ../ambiente/log/
+ find ../ambiente/progetti/  -name  "*.java" | grep -r  "TODO" ../ambiente/progetti/
 
 

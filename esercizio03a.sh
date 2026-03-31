@@ -12,6 +12,7 @@
 #
 # Scrivi i comandi qui sotto:
 # ------------------------------------------------------------
-
-
-
+cd ambiente
+cd sandbox
+ls -l
+./script_test.sh
